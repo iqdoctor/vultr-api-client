@@ -1,5 +1,5 @@
 {
-    "name": "malc0mn/vultr-api-client",
+    "name": "iqdoctor/vultr-api-client",
     "description": "PHP API client for api.vultr.com",
     "type": "library",
     "license": "MIT",
@@ -12,7 +12,11 @@
         {
             "name": "malc0mn",
             "email": "malc0mn@advalvas.be"
-        }
+        },      
+        {
+            "name": "iqdoctor",
+            "email": "s@iqdoctor.pro"
+        },
     ],
     "require": {
         "php": ">=5.4.0"
