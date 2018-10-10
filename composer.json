@@ -3,7 +3,7 @@
     "description": "PHP API client for api.vultr.com",
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/malc0mn/vultr-api-client",
+    "homepage": "https://github.com/iqdoctor/vultr-api-client",
     "authors": [
         {
             "name": "Zach aka usefulz",
