@@ -16,7 +16,7 @@
         {
             "name": "iqdoctor",
             "email": "s@iqdoctor.pro"
-        },
+        }
     ],
     "require": {
         "php": ">=5.4.0"
