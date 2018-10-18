@@ -17,6 +17,7 @@
 namespace Vultr;
 
 use Vultr\Adapter\AdapterInterface;
+use Vultr\ApiCall\Baremetal;
 use Vultr\ApiCall\BlockStorage;
 use Vultr\ApiCall\Dns;
 use Vultr\ApiCall\Firewall;
@@ -122,6 +123,16 @@ class VultrClient
     public function server()
     {
         return new Server($this->adapter);
+    }
+    
+    /**
+     * Provides bare metal script related calls.
+     *
+     * @return Baremetal
+     */
+    public function baremetal()
+    {
+        return new Baremetal($this->adapter);
     }
 
     /**
